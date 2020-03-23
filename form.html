@@ -1,0 +1,43 @@
+<meta charset="utf-8">
+<html>
+<head>
+	<title>報名表</title>
+</head>
+<form action="submit.php" method="POST">
+<body style="background-color:#ffcc66;">
+<CENTER><h1>高雄大學資管營個人報名表</h1></CENTER><br/>
+<h3>請您填寫以下個人資料以完成報名</h3><br/><hr>
+姓名:<br/><input type="text" name="chname"><br/><br/>
+性別:<br/>
+男<input type="radio" name="gender" value="boy">
+女<input type="radio" name="gender" value="girl"><br/>
+<br/>
+出生日期<br/>
+<input type="date" name="day"><br/>
+<br/>
+身分證字號:<br/><input type="text" name="id"><br/><br/>
+連絡電話:<br/><input type="text" name="phone"><br/><br/>
+緊急聯絡人:<br/><input type="text" name="parent"><br/><br/>
+緊急聯絡人電話:<br/><input type="text" name="parentphone"><br/><br/>
+聯絡地址:<br/><input type="text" name="address"><br/><br/>
+Email:<br/><input type="email" id="email" name="email"><br/><br/>
+就讀學校:<br/><input type="text" name="school"><br/><br/>
+班級:<br/><input type="text" name="class"><br/><br/>
+你有興趣的項目~<br/>
+JAVA<input type="checkbox" name="int[]" value="JAVA"  checked>
+資料庫<input type="checkbox" name="int[]" value="DATABASE"  checked>
+PHP網頁<input type="checkbox" name="int[]" value="PHPWEB"  checked>
+網路管理<input type="checkbox" name="int[]" value="MANAGE"  checked>
+<BR/>
+<textarea rows="10" cols="40" name="comment">
+備註~
+	 
+</textarea><br/>
+
+<input type="submit" value="下一步">
+
+
+
+</body>
+</form>
+</html>
